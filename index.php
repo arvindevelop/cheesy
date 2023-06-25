@@ -9,40 +9,40 @@
     <title>CHEESY HUNGER</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">CHEESY HUNGER LOGO</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid nav-container">
+            <a class="navbar-brand nav-text" href="#"><img src="assets/cheesy_hunger_logo.jpg" alt="logo" width="100" height="100"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link nav-text" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Gallery
+                        <a class="nav-link dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            GALLERY
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#video-gallery">Video gallery</a></li>
-                            <li><a class="dropdown-item" href="#image-gallery">image gallery</a></li>
+                            <li><a class="dropdown-item nav-text" href="#video-gallery">VIDEO GALLERY</a></li>
+                            <li><a class="dropdown-item nav-text" href="#image-gallery">IMAGE GALLERY</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#franchise">Franchise partner</a>
+                        <a class="nav-link nav-text" href="#franchise">FRANCHAISE PARTNER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#menu">Menu</a>
+                        <a class="nav-link nav-text" href="#menu">MENU</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#dishes">Recepies</a>
+                        <a class="nav-link nav-text" href="#dishes">RECEPIES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link nav-text" href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -132,7 +132,10 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle">
+                        <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle list-container">
                         <div>
                             <h4>Italian Salsa Verde-----------------------------<span class="cost">18.5 $</span></h4>
                             <p>Three Italian Favorites: Baked Clams, Fried Calamari and Stuffed Shrimp</p>
@@ -158,9 +161,6 @@
                             <p>Cornish mackerel, marinated tomatoes, fragrant curry, tamarillo</p>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
-                    </div>
                 </div>
             </div>
         </section>
@@ -175,30 +175,30 @@
             </div>
             <div class="container">
                 <div class="row py-1">
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/samosa.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/samosa.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/samosa.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/samosa.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <div class="row py-1">
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/samosa.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/samosa.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/samosa.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/samosa.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
@@ -215,30 +215,30 @@
             </div>
             <div class="container">
                 <div class="row py-1">
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <div class="row py-1">
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
@@ -271,10 +271,10 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
@@ -286,7 +286,7 @@
         <section class="my-5 bg-dark" id="dishes">
             <div class="video-gallery-container py-4">
                 <div class="py-1 d-flex justify-content-center">
-                    <p class="para-above">restaurant dishes</p>
+                    <p class="para-above">Restaurant dishes</p>
                 </div>
                 <div class="py-1 d-flex justify-content-center">
                     <h2 class="text-white">CHEF RECIPES</h2>
@@ -294,30 +294,30 @@
             </div>
             <div class="container">
                 <div class="row py-1">
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <div class="row py-1">
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-3 vertical-middle p-3">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>

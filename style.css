@@ -1,5 +1,9 @@
 * {
-    
+
+}
+
+main{
+    padding: 2px;
 }
 
 .para-above{
@@ -11,3 +15,29 @@
 .cost{
     color:red;
 }
+
+.nav-container{
+    /* align-items: center; */
+    align-content:space-between;
+}
+
+.nav-text{
+    font-size: larger;
+    color:black;
+}
+
+.vertical-middle {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+
+/* Mobile view style */
+
+@media screen and (max-width: 800px) {
+    .list-container{
+        padding-top: 10px;
+    }
+  }
