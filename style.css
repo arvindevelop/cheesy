@@ -1,5 +1,4 @@
 * {
-
 }
 
 main{
@@ -7,18 +6,9 @@ main{
 }
 
 .para-above{
-    color: red;
+    color: orange;
     font-size: 5vh;
     font-family: cursive;
-}
-
-.cost{
-    color:red;
-}
-
-.nav-container{
-    /* align-items: center; */
-    align-content:space-between;
 }
 
 .nav-text{
@@ -32,12 +22,98 @@ main{
     float: none;
 }
 
+.card{
+    /* border-color: black !important; */
+    border-radius: 10px !important;
+    background-color: bisque !important;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3) !important;
+}
 
+.franchise-enq{
+    font-size: 20px;
+    color:orange;
+    font-weight: bold;
+}
+
+.franchise-enq-no{
+    font-weight:bold;
+    font-size: 20px;
+    color:purple;
+}
+
+.fab{
+    font-size: 24px;
+}
+
+.fa-instagram{
+    color: #f09433; 
+color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.container-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left, .middle, .right {
+    flex-grow: 1;
+  }
+  
+  .middle {
+    text-align: center;
+  }
+
+  .right{
+    text-align: right;
+  }
 
 /* Mobile view style */
 
-@media screen and (max-width: 800px) {
-    .list-container{
-        padding-top: 10px;
-    }
+@media screen and (max-width: 600px) {
+   .rem-fig{
+        height: 148px;
+   }
+   .contact-div li{
+        font-size: 8px;
+   }
+   #contact-2{
+    display:none;
+   }
+   #contact-1{
+    padding-bottom: 2px !important;
+   }
+   .left h3, .middle h3, .right h3{
+    font-size: 15px;
+   }
+   .slider-img{
+    height: 300px;
+   }
   }
+
+@media screen and (min-width: 800px) {
+    .rem-fig{
+         height: 575px;
+    }
+    .nav-item{
+        margin-right: 15px;
+    }
+    .right-head{
+        margin-right: 15px;
+    }
+    .footer-div{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #contact-1{
+        display: none;
+    }
+    .slider-img{
+        height: 700px;
+       }
+   }
