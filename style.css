@@ -6,7 +6,7 @@ main{
 }
 
 .para-above{
-    color: orange;
+    color: rgb(238, 150, 43);
     font-size: 5vh;
     font-family: cursive;
 }
@@ -38,7 +38,7 @@ main{
 .franchise-enq-no{
     font-weight:bold;
     font-size: 20px;
-    color:purple;
+    color:purple !important;
 }
 
 .fab{

@@ -54,7 +54,7 @@
     <div class="px-3 mb-2">
         <div class="franchise-div card px-3" style="float:left;">
             <p class="pb-0 mb-0 franchise-enq">Franchise Enquiry</p>
-            <p class="text-center franchise-enq-no mb-0">9955002277</p>
+            <p class="text-center franchise-enq-no mb-0"><a href="#" class="nav-link p-0 franchise-enq-no"><i class="fa">&#xf3cd;</i> 9955002277</a></p>
         </div>
 
         <div style="float:right; padding-top:7px;">
@@ -111,7 +111,7 @@
                     <p class="para-above">Hot Dishes</p>
                 </div> -->
                 <div class="py-1 d-flex justify-content-center">
-                    <p class="para-above">Let's Discover</p>
+                    <p class="para-above">Let's Explore</p>
                 </div>
                 <!-- <div class="py-1 d-flex justify-content-center">
                     <h2>SPECIALITY</h2>
@@ -265,6 +265,9 @@
                     </div>
                     <div class="col-4 px-1">
                         <video src="assets/video/video8.mp4" alt="..." autoplay loop muted class="d-block w-100"></video>
+                    </div>
+                    <div class="col-4 px-1">
+                        <video src="assets/video/video9.mp4" alt="..." autoplay loop muted class="d-block w-100"></video>
                     </div>
                 </div>
             </div>
