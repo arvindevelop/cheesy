@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>CHEESY HUNGER</title>
 </head>
@@ -52,21 +52,20 @@
 
     
     <div class="px-3 mb-2">
-        <div class="franchise-div card px-3" style="float:left;">
+        <div class="franchise-div card px-3 mt-2" style="float:left;">
             <p class="pb-0 mb-0 franchise-enq">Franchise Enquiry</p>
-            <p class="text-center franchise-enq-no mb-0"><a href="#" class="nav-link p-0 franchise-enq-no"><i class="fa">&#xf3cd;</i> 9955002277</a></p>
+            <p class="text-center franchise-enq-no mb-0"><a href="tel:9955002277" class="nav-link p-0 franchise-enq-no"><i class="fa">&#xf3cd;</i> 9955002277</a></p>
         </div>
 
-        <div style="float:right; padding-top:7px;">
+        <div style="float:right;">
             <div>
-                <a href="https://www.instagram.com/your_username" target="_blank" class="social-icon">
-                    <i class="fab fa-instagram" style="color: #833AB4;"></i>
-                </a>
+                <a href="https://www.instagram.com/cheesyhunger_india/" target="_blank" class="social-icon"><i class="fab fa-instagram" style="color: #833AB4;padding-left:1px;"></i></a>
             </div>
             <div>
-                <a href="https://twitter.com/your_username" target="_blank" class="social-icon">
-                    <i class="fab fa-twitter"></i>
-                </a>
+                <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" class="social-icon" style="color:blue;"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div>
+                <a href="https://wa.me/9955002277" target="_blank" class="social-icon" style="color:#25D366;padding-left:1px;"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
         <div style="clear:both;"></div>
@@ -74,7 +73,7 @@
 
     <main>
         <!-- slider section start -->
-        <section class="slider-section">
+        <section class="slider-section mb-4">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -105,46 +104,14 @@
         <!-- slider section end -->
 
         <!-- Today's speciality start -->
-        <section class="my-5">
-            <div class="todays-speciality-container py-4">
-                <!-- <div class="py-1 d-flex justify-content-center">
-                    <p class="para-above">Hot Dishes</p>
-                </div> -->
+        <section class="mb-4">
+            <div class="todays-speciality-container">
                 <div class="py-1 d-flex justify-content-center">
                     <p class="para-above">Let's Explore</p>
                 </div>
-                <!-- <div class="py-1 d-flex justify-content-center">
-                    <h2>SPECIALITY</h2>
-                </div> -->
             </div>
-            <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <video src="assets/video/video12.mp4" alt="..." autoplay loop muted class="d-block w-100" height="555"></video>
-                        </div>
-                        <div class="carousel-item">
-                        <video src="assets/video/video10.mp4" alt="..." autoplay loop muted class="d-block w-100" height="555"></video>
-                        </div>
-                        <div class="carousel-item">
-                        <video src="assets/video/video13.mp4" alt="..." autoplay loop muted class="d-block w-100" height="555"></video>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-            </div> -->
-            <div class="container">
-                <div class="row py-1">
+            <div class="px-3">
+                <div class="row">
                     <div class="col-4 px-1">
                     <video src="assets/video/video12.mp4" alt="..." autoplay loop muted class="d-block w-100"></video>
                     </div>
@@ -159,19 +126,13 @@
         <!-- Today's speciality end -->
 
         <!-- Menu start -->
-        <section class="my-5" id="menu">
-            <div class="menu-container py-4">
-                <!-- <div class="py-1 d-flex justify-content-center">
-                    <p class="para-above">Discover Our</p>
-                </div> -->
+        <section class="mb-4" id="menu">
+            <div class="menu-container">
                 <div class="py-1 d-flex justify-content-center">
                     <p class="para-above">Tasty Menu</p>
                 </div>
-                <!-- <div class="py-1 d-flex justify-content-center">
-                    <h2>TASTY MENU</h2>
-                </div> -->
             </div>
-            <div class="container">
+            <div class="px-2">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle pb-2">
                         <img src="assets/photo/menu2.jpg" class="d-block w-100" alt="...">
@@ -185,13 +146,13 @@
         <!-- Menu end -->
 
         <!-- Image gallery start -->
-        <section class="my-5" id="image-gallery">
-            <div class="image-gallery-container py-4">
+        <section class="mb-4" id="image-gallery">
+            <div class="image-gallery-container">
                 <div class="py-1 d-flex justify-content-center">
                     <h2 class="para-above">Image Gallery</h2>
                 </div>
             </div>
-            <div class="container">
+            <div class="px-3">
                 <div class="row py-1">
                     <div class="col-4 px-1">
                         <img src="assets/photo/outlet.jpg" class="d-block w-100" alt="...">
@@ -230,13 +191,13 @@
         <!-- Image gallery end -->
 
         <!-- Video gallery start -->
-        <section class="my-5" id="video-gallery">
-            <div class="video-gallery-container py-4">
+        <section class="mb-4" id="video-gallery">
+            <div class="video-gallery-container">
                 <div class="py-1 d-flex justify-content-center">
                     <h2 class="para-above">Video Gallery</h2>
                 </div>
             </div>
-            <div class="container">
+            <div class="px-3">
                 <div class="row py-1">
                     <div class="col-4 px-1">
                         <video src="assets/video/video1.mp4" alt="..." autoplay loop muted class="d-block w-100"></video>
@@ -275,37 +236,31 @@
         <!-- Video gallery end -->
 
         <!-- About start -->
-        <section class="my-5" id="about">
-            <div class="video-gallery-container py-4">
+        <section class="mb-4" id="about">
+            <div class="video-gallery-container">
                 <div class="py-1 d-flex justify-content-center">
                     <h2 class="para-above">About Us</h2>
                 </div>
             </div>
-            <div class="py-5">
+            <div class="">
                 <img src="assets/about.jpeg" class="d-block w-100" alt="...">
             </div>
         </section>
         <!-- About end -->
 
         <!-- franchise-partner start -->
-        <section class="my-5" id="franchise">
-            <div class="franchise-partner-container py-4">
-                <!-- <div class="py-1 d-flex justify-content-center">
-                    <p class="para-above">Partner</p>
-                </div>
-                <div class="py-1 d-flex justify-content-center">
-                    <h2>Franchise Partner</h2>
-                </div> -->
+        <section class="mb-4" id="franchise">
+            <div class="franchise-partner-container">
                 <div class="py-1 d-flex justify-content-center">
                     <p class="para-above">Franchise Partner</p>
                 </div>
             </div>
-            <div class="container">
+            <div class="px-3">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle p-3">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle px-1 py-1">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle p-3">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle px-1 py-1">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
@@ -318,30 +273,15 @@
     <!-- Footer start -->
     <div class="middle contact-div bg-light pt-2 pb-0" id="contact-1">
                 <h3 class="middle-head" style="">Socila Media</h3>
-                    <a href="https://twitter.com/your_username" target="_blank" class="social-icon">
-                        <i class="fab fa-twitter">&nbsp;</i>
-                    </a>
-                    <a href="https://www.instagram.com/your_username" target="_blank" class="social-icon">
-                        <i class="fab fa-instagram">&nbsp;</i>
-                    </a>
-                    <a href="https://www.facebook.com/your-page" target="_blank" style="color:blue;">
-                        <i class="fab fa-facebook">&nbsp;</i>
-                    </a>
-
-                    <a href="https://wa.me/your-phone-number" target="_blank" style="color:#25D366;">
-                        <i class="fab fa-whatsapp">&nbsp;</i>
-                    </a>
-
-                    <a href="https://www.youtube.com/your-channel" target="_blank" style="color:red;">
-                        <i class="fab fa-youtube">&nbsp;</i>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" style="color:#0072b1;">
-                        <i class="fab fa-linkedin"></i>
-                    </a>    
-                </div>
+                <a href="https://twitter.com/cheesyhunger" target="_blank" class="social-icon"><i class="fab fa-twitter">&nbsp;</i></a>
+                    <a href="https://www.instagram.com/cheesyhunger_india/" target="_blank" class="social-icon"><i class="fab fa-instagram">&nbsp;</i></a>
+                    <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" style="color:blue;"><i class="fab fa-facebook">&nbsp;</i></a>
+                    <a href="https://wa.me/9955002277" target="_blank" style="color:#25D366;"><i class="fab fa-whatsapp">&nbsp;</i></a>
+                    <!-- <a href="https://www.youtube.com/your-channel" target="_blank" style="color:red;"><i class="fab fa-youtube">&nbsp;</i></a> -->
+                    <a href="https://www.linkedin.com/in/cheesy-hunger-52492126a/?jobid=1234" target="_blank" style="color:#0072b1;"><i class="fab fa-linkedin"></i></a>    
+    </div>
     <div class="px-5 bg-light w-100" id="contact">
-        <footer class="py-5 footer-div">
+        <footer class="py-3 footer-div">
             <div class="container-div">
                 <div class="left contact-div">
                     <h3 style="font-weight:bold;">Opening Hours</h3>
@@ -353,40 +293,25 @@
                 </div>
                 <div class="middle contact-div" id="contact-2">
                 <h3 class="middle-head" style="">Socila Media</h3>
-                    <a href="https://twitter.com/your_username" target="_blank" class="social-icon">
-                        <i class="fab fa-twitter">&nbsp;</i>
-                    </a>
-                    <a href="https://www.instagram.com/your_username" target="_blank" class="social-icon">
-                        <i class="fab fa-instagram">&nbsp;</i>
-                    </a>
-                    <a href="https://www.facebook.com/your-page" target="_blank" style="color:blue;">
-                        <i class="fab fa-facebook">&nbsp;</i>
-                    </a>
-
-                    <a href="https://wa.me/your-phone-number" target="_blank" style="color:#25D366;">
-                        <i class="fab fa-whatsapp">&nbsp;</i>
-                    </a>
-
-                    <a href="https://www.youtube.com/your-channel" target="_blank" style="color:red;">
-                        <i class="fab fa-youtube">&nbsp;</i>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" style="color:#0072b1;">
-                        <i class="fab fa-linkedin"></i>
-                    </a>    
+                    <a href="https://twitter.com/cheesyhunger" target="_blank" class="social-icon"><i class="fab fa-twitter">&nbsp;</i></a>
+                    <a href="https://www.instagram.com/cheesyhunger_india/" target="_blank" class="social-icon"><i class="fab fa-instagram">&nbsp;</i></a>
+                    <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" style="color:blue;"><i class="fab fa-facebook">&nbsp;</i></a>
+                    <a href="https://wa.me/9955002277" target="_blank" style="color:#25D366;"><i class="fab fa-whatsapp">&nbsp;</i></a>
+                    <!-- <a href="https://www.youtube.com/your-channel" target="_blank" style="color:red;"><i class="fab fa-youtube">&nbsp;</i></a> -->
+                    <a href="https://www.linkedin.com/in/cheesy-hunger-52492126a/?jobid=1234" target="_blank" style="color:#0072b1;"><i class="fab fa-linkedin"></i></a>    
                 </div>
                 <div class="right contact-div">
                     <h3 class="right-head" style="font-weight:bold;">Contact Us</h3>
                     <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">info@cheesyhunger.com <i class="fa">&#xf0e0;</i></a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Call us for franchise <i class="fa">&#xf095;</i></a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">+91-9955002277 <i class="fa">&#xf3cd;</i></a></li>
+                    <li class="nav-item mb-2"><a href="tel:9955002277" class="nav-link p-0 text-muted">Call us for franchise <i class="fa">&#xf095;</i></a></li>
+                    <li class="nav-item mb-2"><a href="tel:9955002277" class="nav-link p-0 text-muted">+91-9955002277 <i class="fa">&#xf3cd;</i></a></li>
                     </ul>
                 </div>
             </div>
         </footer>
     </div>  
-    <div class="d-flex flex-column flex-sm-row justify-content-between border-top bg-danger py-3 px-5">
+    <div class="d-flex flex-column flex-sm-row justify-content-between border-top bg-danger py-3 px-4">
             <p class="mx-auto">Copyright &copy; 2023 Cheesy Hunger, Inc. All rights reserved.</p>
     </div> 
     <!-- Footer end-->

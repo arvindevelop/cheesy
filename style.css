@@ -1,4 +1,5 @@
 * {
+    
 }
 
 main{
@@ -9,6 +10,7 @@ main{
     color: rgb(238, 150, 43);
     font-size: 5vh;
     font-family: cursive;
+    font-weight: bold;
 }
 
 .nav-text{
@@ -23,7 +25,6 @@ main{
 }
 
 .card{
-    /* border-color: black !important; */
     border-radius: 10px !important;
     background-color: bisque !important;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3) !important;
@@ -44,6 +45,10 @@ main{
 .fab{
     font-size: 24px;
 }
+
+i.fab {
+    display: inline-block;
+  }
 
 .fa-instagram{
     color: #f09433; 
@@ -74,6 +79,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 /* Mobile view style */
 
 @media screen and (max-width: 600px) {
+    .para-above{
+        font-size: 20px;
+    }
    .rem-fig{
         height: 148px;
    }
@@ -116,4 +124,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     .slider-img{
         height: 700px;
        }
+    .container{
+        /* margin-left: 0px !important;
+        margin-right: 0px !important; */
+    }
    }
