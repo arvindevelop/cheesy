@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>CHEESY HUNGER | Menu</title>
+    <title>CHEESY HUNGER | About</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -49,25 +49,19 @@
 
     <main>
 
-        <!-- Menu start -->
-        <section id="menu" class="mb-3">
-            <div class="menu-container py-2">
-                <div class="py-1 d-flex justify-content-center">
-                    <p class="para-above">Tasty Menu</p>
+        <!-- About start -->
+        <section class="mb-3" id="">
+            <!-- About start -->
+            <div class="container">
+                <div class="py-2 d-flex justify-content-center">
+                    <h2 class="para-above">About Us</h2>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle pb-2">
-                        <img src="assets/photo/menu2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle">
-                        <img src="assets/photo/menu1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
+            <div class="">
+                <img src="assets/about.jpeg" class="d-block w-100" alt="...">
             </div>
         </section>
-        <!-- Menu end -->
+        <!-- About end -->
 
     </main>
 

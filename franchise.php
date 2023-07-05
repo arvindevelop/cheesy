@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>CHEESY HUNGER | Menu</title>
+    <title>CHEESY HUNGER | Franchise</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -50,19 +50,50 @@
     <main>
 
         <!-- Menu start -->
-        <section id="menu" class="mb-3">
-            <div class="menu-container py-2">
-                <div class="py-1 d-flex justify-content-center">
-                    <p class="para-above">Tasty Menu</p>
-                </div>
-            </div>
+        <section class="my-3" id="">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle pb-2">
-                        <img src="assets/photo/menu2.jpg" class="d-block w-100" alt="...">
+                <div class="d-flex justify-content-center">
+                    <h2 class="para-above">Franchise Model</h2>
+                </div>
+                <div class="franchise-div">
+                    <div>
+                        <div class="container card">
+                            <div class="row mx-auto">
+                                <p class="franchise-enq">Model - 1</p>
+                            </div>
+                        </div>
+                        <div class="container card" style="">
+                            <p class="franchise-enq">Requirement</p>
+                        </div>
+                        <div class="card" style="">
+                            <p class="franchise-enq">Image/Video</p>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle">
-                        <img src="assets/photo/menu1.jpg" class="d-block w-100" alt="...">
+                    <div>
+                        <div class="container card" style="">
+                            <div class="row mx-auto">
+                                <p class="franchise-enq">Model - 2</p>
+                            </div>
+                        </div>
+                        <div class="container card" style="">
+                            <p class="franchise-enq">Requirement</p>
+                        </div>
+                        <div class="card" style="">
+                            <p class="franchise-enq">Image/Video</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="container card" style="">
+                            <div class="row mx-auto">
+                                <p class="franchise-enq">Model - 3</p>
+                            </div>
+                        </div>
+                        <div class="container card" style="">
+                            <p class="franchise-enq">Requirement</p>
+                        </div>
+                        <div class="card" style="">
+                            <p class="franchise-enq">Image/Video</p>
+                        </div>
                     </div>
                 </div>
             </div>

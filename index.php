@@ -19,10 +19,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link active nav-text" aria-current="page" href="index.php">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-text" href="#about">ABOUT</a>
+                        <a class="nav-link nav-text" href="about.php">ABOUT</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -34,13 +34,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-text" href="#franchise">FRANCHAISE MODEL</a>
+                        <a class="nav-link nav-text" href="franchise.php">FRANCHAISE MODEL</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-text" href="menu.php">MENU</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#dishes">RECEPIES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-text" href="#contact">CONTACT</a>
@@ -54,7 +51,7 @@
     <div class="px-3 mb-2">
         <div class="franchise-div card px-3 mt-2" style="float:left;">
             <p class="pb-0 mb-0 franchise-enq">Franchise Enquiry</p>
-            <p class="text-center franchise-enq-no mb-0"><a href="tel:9955002277" class="nav-link p-0 franchise-enq-no"><i class="fa">&#xf3cd;</i> 9955002277</a></p>
+            <p class="text-center franchise-enq-no mb-0"><a href="tel:09955002277" class="nav-link p-0 franchise-enq-no"><i class="fa">&#xf3cd;</i> 9955002277</a></p>
         </div>
 
         <div style="float:right;">
@@ -106,7 +103,7 @@
         <!-- Today's speciality start -->
         <section class="mb-4">
             <div class="todays-speciality-container">
-                <div class="py-1 d-flex justify-content-center">
+                <div class="py-2 d-flex justify-content-center">
                     <p class="para-above">Let's Explore</p>
                 </div>
             </div>
@@ -128,12 +125,12 @@
         <!-- Menu start -->
         <section class="mb-4" id="menu">
             <div class="menu-container">
-                <div class="py-1 d-flex justify-content-center">
+                <div class="py-2 d-flex justify-content-center">
                     <p class="para-above">Tasty Menu</p>
                 </div>
             </div>
             <div class="px-2">
-                <div class="row">
+                <div class="row menu-div">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle pb-2">
                         <img src="assets/photo/menu2.jpg" class="d-block w-100" alt="...">
                     </div>
@@ -148,7 +145,7 @@
         <!-- Image gallery start -->
         <section class="mb-4" id="image-gallery">
             <div class="image-gallery-container">
-                <div class="py-1 d-flex justify-content-center">
+                <div class="py-2 d-flex justify-content-center">
                     <h2 class="para-above">Image Gallery</h2>
                 </div>
             </div>
@@ -193,7 +190,7 @@
         <!-- Video gallery start -->
         <section class="mb-4" id="video-gallery">
             <div class="video-gallery-container">
-                <div class="py-1 d-flex justify-content-center">
+                <div class="py-2 d-flex justify-content-center">
                     <h2 class="para-above">Video Gallery</h2>
                 </div>
             </div>
@@ -235,27 +232,14 @@
         </section>
         <!-- Video gallery end -->
 
-        <!-- About start -->
-        <section class="mb-4" id="about">
-            <div class="video-gallery-container">
-                <div class="py-1 d-flex justify-content-center">
-                    <h2 class="para-above">About Us</h2>
-                </div>
-            </div>
-            <div class="">
-                <img src="assets/about.jpeg" class="d-block w-100" alt="...">
-            </div>
-        </section>
-        <!-- About end -->
-
         <!-- franchise-partner start -->
         <section class="mb-4" id="franchise">
             <div class="franchise-partner-container">
-                <div class="py-1 d-flex justify-content-center">
+                <div class="py-2 d-flex justify-content-center">
                     <p class="para-above">Franchise Partner</p>
                 </div>
             </div>
-            <div class="px-3">
+            <div class="mx-3">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle px-1 py-1">
                         <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
@@ -272,27 +256,26 @@
 
     <!-- Footer start -->
     <div class="middle contact-div bg-light pt-2 pb-0" id="contact-1">
-                <h3 class="middle-head" style="">Socila Media</h3>
+                <h3 class="middle-head" style="font-weight:bold;color:#ceba28;">Get in Touch</h3>
                 <a href="https://twitter.com/cheesyhunger" target="_blank" class="social-icon"><i class="fab fa-twitter">&nbsp;</i></a>
                     <a href="https://www.instagram.com/cheesyhunger_india/" target="_blank" class="social-icon"><i class="fab fa-instagram">&nbsp;</i></a>
                     <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" style="color:blue;"><i class="fab fa-facebook">&nbsp;</i></a>
                     <a href="https://wa.me/9955002277" target="_blank" style="color:#25D366;"><i class="fab fa-whatsapp">&nbsp;</i></a>
-                    <!-- <a href="https://www.youtube.com/your-channel" target="_blank" style="color:red;"><i class="fab fa-youtube">&nbsp;</i></a> -->
                     <a href="https://www.linkedin.com/in/cheesy-hunger-52492126a/?jobid=1234" target="_blank" style="color:#0072b1;"><i class="fab fa-linkedin"></i></a>    
     </div>
-    <div class="px-5 bg-light w-100" id="contact">
+    <div class="bg-light w-100" id="contact">
         <footer class="py-3 footer-div">
             <div class="container-div">
                 <div class="left contact-div">
-                    <h3 style="font-weight:bold;">Opening Hours</h3>
+                    <h3 style="font-weight:bold;color:rgb(238, 150, 43);">Opening Hours</h3>
                     <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa fa-calendar" aria-hidden="true"></i> Mon - Sun</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa">&#xf017;</i> 10 AM - 10 PM</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa">&#xf3c5;</i> Bihar, India</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa fa-calendar" aria-hidden="true" style="color:#cc0f90;"></i> Mon - Sun</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa" style="color:#ceba28;">&#xf017;</i> 10 AM - 10 PM</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa" style="color:red;">&#xf3c5;</i> Bihar, India</a></li>
                     </ul>
                 </div>
                 <div class="middle contact-div" id="contact-2">
-                <h3 class="middle-head" style="">Socila Media</h3>
+                <h3 class="middle-head" style="font-weight:bold;color:#ceba28;">Get in Touch</h3>
                     <a href="https://twitter.com/cheesyhunger" target="_blank" class="social-icon"><i class="fab fa-twitter">&nbsp;</i></a>
                     <a href="https://www.instagram.com/cheesyhunger_india/" target="_blank" class="social-icon"><i class="fab fa-instagram">&nbsp;</i></a>
                     <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" style="color:blue;"><i class="fab fa-facebook">&nbsp;</i></a>
@@ -301,11 +284,11 @@
                     <a href="https://www.linkedin.com/in/cheesy-hunger-52492126a/?jobid=1234" target="_blank" style="color:#0072b1;"><i class="fab fa-linkedin"></i></a>    
                 </div>
                 <div class="right contact-div">
-                    <h3 class="right-head" style="font-weight:bold;">Contact Us</h3>
+                    <h3 class="right-head" style="font-weight:bold;color:rgb(238, 150, 43);">Contact Us</h3>
                     <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">info@cheesyhunger.com <i class="fa">&#xf0e0;</i></a></li>
-                    <li class="nav-item mb-2"><a href="tel:9955002277" class="nav-link p-0 text-muted">Call us for franchise <i class="fa">&#xf095;</i></a></li>
-                    <li class="nav-item mb-2"><a href="tel:9955002277" class="nav-link p-0 text-muted">+91-9955002277 <i class="fa">&#xf3cd;</i></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">info@cheesyhunger.com <i class="fa" style="color:rgb(196, 187, 6);">&#xf0e0;</i></a></li>
+                    <li class="nav-item mb-2"><a href="tel:09955002277" class="nav-link p-0 text-muted">Call us for franchise <i class="fa" style="color:rgb(158, 78, 232);">&#xf095;</i></a></li>
+                    <li class="nav-item mb-2"><a href="tel:09955002277" class="nav-link p-0 text-muted">+91-9955002277 <i class="fa" style="color:rgb(240, 69, 169);">&#xf3cd;</i></a></li>
                     </ul>
                 </div>
             </div>
