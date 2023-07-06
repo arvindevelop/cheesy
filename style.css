@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.progress-div{
+    font-size: 7px;
+}
+
 .navbar-toggler{
     background-color: #f09433 !important;
 }
@@ -142,7 +146,7 @@ i.fab {
 
 @media screen and (min-width: 800px) {
     .rem-fig{
-         height: 609px;
+         height: 550px;
     }
     .nav-item{
         margin-right: 15px;

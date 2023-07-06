@@ -10,6 +10,7 @@
     <title>CHEESY HUNGER</title>
 </head>
 <body>
+<div class="px-2 py-1 card progress-div">Website in Progress...</div> 
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid nav-container">
             <a class="navbar-brand nav-text" href="index.php"><img src="assets/cheesy_hunger_logo.jpg" alt="logo" width="100" height="100"></a>
