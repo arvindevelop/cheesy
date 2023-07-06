@@ -4,14 +4,13 @@
     padding: 0;
 }
 
-body{
-    background-color: lightcyan;
+.navbar-toggler{
+    background-color: #f09433 !important;
 }
 
 .para-above{
     color: rgb(238, 150, 43);
     font-size: 5vh;
-    font-family: cursive;
     font-weight: bold;
 }
 
@@ -41,7 +40,7 @@ body{
 .franchise-enq-no{
     font-weight:bold;
     font-size: 20px;
-    color:purple !important;
+    color:white !important;
 }
 
 .fab{
@@ -53,12 +52,9 @@ i.fab {
   }
 
 .fa-instagram{
-    color: #f09433; 
-color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: #cc0f90;
 }
+
 
 .container-div {
     display: flex;
@@ -77,6 +73,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   .right{
     text-align: right;
   }
+.franchise-div{
+    background-color: black !important;
+    margin-left: 0px !important;
+}
+
+.social-div{
+    background-color:black !important;
+    border-color:black;
+}
+
+.contact-div1{
+    background-color: black !important;
+}
+.contact-div2{
+    background-color: black !important;
+}
+#contact{
+    background-color: black !important;
+}
+
+#franchise{
+    background-color: black !important;
+    margin-bottom: 1px;
+}
+
+
 
 /* Mobile view style */
 
@@ -88,7 +110,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
         height: 146px;
    }
    .contact-div li{
-        font-size: 8px;
+        font-size: 15px;
    }
    #contact-2{
     display:none;
@@ -97,7 +119,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     padding-bottom: 2px !important;
    }
    .left h3, .middle h3, .right h3{
-    font-size: 15px;
+    font-size: 20px;
    }
    .slider-img{
     height: 300px;
@@ -106,6 +128,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     padding-left: 20px;
     padding-right: 20px;
    }
+   .franchise-img{
+        height: 190px;
+   }
+   .copyright-foot{
+    background-color: #313031;
+   }
+   .copyright-para{
+    font-size: 12px;
+    color: white;
+    }
   }
 
 @media screen and (min-width: 800px) {
@@ -138,6 +170,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+    .franchise-img{
+        height: 500px;
+    }
+    .copyright-foot{
+        background-color: #313031;
+       }
+       .copyright-para{
+        font-size: 15px;
+        color: white;
+        }
    }
 
    

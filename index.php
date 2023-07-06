@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid nav-container">
-            <a class="navbar-brand nav-text" href="#"><img src="assets/cheesy_hunger_logo.jpg" alt="logo" width="100" height="100"></a>
+            <a class="navbar-brand nav-text" href="index.php"><img src="assets/cheesy_hunger_logo.jpg" alt="logo" width="100" height="100"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -22,7 +22,7 @@
                         <a class="nav-link active nav-text" aria-current="page" href="index.php">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-text" href="about.php">ABOUT</a>
+                        <a class="nav-link nav-text" href="#">ABOUT</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -34,10 +34,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-text" href="franchise.php">FRANCHAISE MODEL</a>
+                        <a class="nav-link nav-text" href="#">FRANCHAISE MODEL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-text" href="menu.php">MENU</a>
+                        <a class="nav-link nav-text" href="#">MENU</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-text" href="#contact">CONTACT</a>
@@ -48,18 +48,18 @@
     </nav>
 
     
-    <div class="px-3 mb-2">
-        <div class="franchise-div card px-3 mt-2" style="float:left;">
+    <div class="px-2 mb-2 franchise-container">
+        <div class="franchise-div card px-3 mt-4" style="float:left;">
             <p class="pb-0 mb-0 franchise-enq">Franchise Enquiry</p>
             <p class="text-center franchise-enq-no mb-0"><a href="tel:09955002277" class="nav-link p-0 franchise-enq-no"><i class="fa">&#xf3cd;</i> 9955002277</a></p>
         </div>
 
-        <div style="float:right;">
+        <div class="p-2 card social-div" style="float:right;">
             <div>
-                <a href="https://www.instagram.com/cheesyhunger_india/" target="_blank" class="social-icon"><i class="fab fa-instagram" style="color: #833AB4;padding-left:1px;"></i></a>
+                <a href="https://www.instagram.com/cheesyhunger_india/" target="_blank" class="social-icon"><i class="fab fa-instagram" style="padding-left:1px;"></i></a>
             </div>
             <div>
-                <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" class="social-icon" style="color:blue;"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" class="social-icon" style="color:0000ff;"><i class="fab fa-facebook"></i></a>
             </div>
             <div>
                 <a href="https://wa.me/9955002277" target="_blank" class="social-icon" style="color:#25D366;padding-left:1px;"><i class="fab fa-whatsapp"></i></a>
@@ -68,7 +68,7 @@
         <div style="clear:both;"></div>
     </div>
 
-    <main>
+    <main style="background-color:black;">
         <!-- slider section start -->
         <section class="slider-section mb-4">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -104,16 +104,16 @@
         <section class="mb-4">
             <div class="todays-speciality-container">
                 <div class="py-2 d-flex justify-content-center">
-                    <p class="para-above">Let's Explore</p>
+                    <p class="para-above">Outlet Gallery</p>
                 </div>
             </div>
             <div class="px-3">
                 <div class="row">
                     <div class="col-4 px-1">
-                    <video src="assets/video/video12.mp4" alt="..." autoplay loop muted class="d-block w-100"></video>
+                    <video src="assets/video/video16.mp4" alt="..." autoplay loop muted class="d-block w-100"></video>
                     </div>
                     <div class="col-4 px-1">
-                    <video src="assets/video/video10.mp4" alt="..." autoplay loop muted class="d-block w-100"></video>
+                    <video src="assets/video/video12.mp4" alt="..." autoplay loop muted class="d-block w-100"></video>
                     </div>
                     <div class="col-4 px-1">
                     <video src="assets/video/video13.mp4" alt="..." autoplay loop muted class="d-block w-100"></video>
@@ -121,26 +121,6 @@
                 </div>
         </section>
         <!-- Today's speciality end -->
-
-        <!-- Menu start -->
-        <section class="mb-4" id="menu">
-            <div class="menu-container">
-                <div class="py-2 d-flex justify-content-center">
-                    <p class="para-above">Tasty Menu</p>
-                </div>
-            </div>
-            <div class="px-2">
-                <div class="row menu-div">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle pb-2">
-                        <img src="assets/photo/menu2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle">
-                        <img src="assets/photo/menu3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Menu end -->
 
         <!-- Image gallery start -->
         <section class="mb-4" id="image-gallery">
@@ -186,6 +166,26 @@
             </div>
         </section>
         <!-- Image gallery end -->
+
+        <!-- Menu start -->
+        <section class="mb-4" id="menu">
+            <div class="menu-container">
+                <div class="py-2 d-flex justify-content-center">
+                    <p class="para-above">Tasty Menu</p>
+                </div>
+            </div>
+            <div class="px-2">
+                <div class="row menu-div">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle pb-2">
+                        <img src="assets/photo/menu2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle">
+                        <img src="assets/photo/menu3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Menu end -->
 
         <!-- Video gallery start -->
         <section class="mb-4" id="video-gallery">
@@ -233,19 +233,19 @@
         <!-- Video gallery end -->
 
         <!-- franchise-partner start -->
-        <section class="mb-4" id="franchise">
+        <section class="" id="franchise">
             <div class="franchise-partner-container">
                 <div class="py-2 d-flex justify-content-center">
                     <p class="para-above">Franchise Partner</p>
                 </div>
             </div>
-            <div class="mx-3">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle px-1 py-1">
-                        <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
+            <div class="px-3">
+                <div class="row py-1">
+                    <div class="col-6 px-1">
+                        <img src="assets/photo/orgPhoto11.jpg" class="d-block w-100 franchise-img" alt="...">
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 vertical-middle px-1 py-1">
-                        <img src="assets/pizza.jpg" class="d-block w-100" alt="...">
+                    <div class="col-6 px-1">
+                        <img src="assets/about.jpeg" class="d-block w-100 franchise-img" alt="...">
                     </div>
                 </div>
             </div>
@@ -255,22 +255,23 @@
     </main>
 
     <!-- Footer start -->
-    <div class="middle contact-div bg-light pt-2 pb-0" id="contact-1">
+    <div class="middle contact-div pt-5 pb-0 contact-div2" id="contact-1">
                 <h3 class="middle-head" style="font-weight:bold;color:#ceba28;">Get in Touch</h3>
                 <a href="https://twitter.com/cheesyhunger" target="_blank" class="social-icon"><i class="fab fa-twitter">&nbsp;</i></a>
                     <a href="https://www.instagram.com/cheesyhunger_india/" target="_blank" class="social-icon"><i class="fab fa-instagram">&nbsp;</i></a>
-                    <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" style="color:blue;"><i class="fab fa-facebook">&nbsp;</i></a>
+                    <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" style="color:0000ff;"><i class="fab fa-facebook">&nbsp;</i></a>
                     <a href="https://wa.me/9955002277" target="_blank" style="color:#25D366;"><i class="fab fa-whatsapp">&nbsp;</i></a>
+                    <a href="https://www.youtube.com/@CHEESYHUNGERINDIA" target="_blank" style="color:red;"><i class="fab fa-youtube">&nbsp;</i></a>
                     <a href="https://www.linkedin.com/in/cheesy-hunger-52492126a/?jobid=1234" target="_blank" style="color:#0072b1;"><i class="fab fa-linkedin"></i></a>    
     </div>
-    <div class="bg-light w-100" id="contact">
+    <div class="bg-light w-100 contact-div1" id="contact">
         <footer class="py-3 footer-div">
             <div class="container-div">
                 <div class="left contact-div">
                     <h3 style="font-weight:bold;color:rgb(238, 150, 43);">Opening Hours</h3>
                     <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa fa-calendar" aria-hidden="true" style="color:#cc0f90;"></i> Mon - Sun</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa" style="color:#ceba28;">&#xf017;</i> 10 AM - 10 PM</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa" style="color:#ceba28;">&#xf017;</i> 11 AM - 10 PM</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa" style="color:red;">&#xf3c5;</i> Bihar, India</a></li>
                     </ul>
                 </div>
@@ -278,15 +279,15 @@
                 <h3 class="middle-head" style="font-weight:bold;color:#ceba28;">Get in Touch</h3>
                     <a href="https://twitter.com/cheesyhunger" target="_blank" class="social-icon"><i class="fab fa-twitter">&nbsp;</i></a>
                     <a href="https://www.instagram.com/cheesyhunger_india/" target="_blank" class="social-icon"><i class="fab fa-instagram">&nbsp;</i></a>
-                    <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" style="color:blue;"><i class="fab fa-facebook">&nbsp;</i></a>
+                    <a href="https://www.facebook.com/cheesyhungerindia" target="_blank" style="color:0000ff;"><i class="fab fa-facebook">&nbsp;</i></a>
                     <a href="https://wa.me/9955002277" target="_blank" style="color:#25D366;"><i class="fab fa-whatsapp">&nbsp;</i></a>
-                    <!-- <a href="https://www.youtube.com/your-channel" target="_blank" style="color:red;"><i class="fab fa-youtube">&nbsp;</i></a> -->
+                    <a href="https://www.youtube.com/@CHEESYHUNGERINDIA" target="_blank" style="color:red;"><i class="fab fa-youtube">&nbsp;</i></a>
                     <a href="https://www.linkedin.com/in/cheesy-hunger-52492126a/?jobid=1234" target="_blank" style="color:#0072b1;"><i class="fab fa-linkedin"></i></a>    
                 </div>
                 <div class="right contact-div">
                     <h3 class="right-head" style="font-weight:bold;color:rgb(238, 150, 43);">Contact Us</h3>
                     <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">info@cheesyhunger.com <i class="fa" style="color:rgb(196, 187, 6);">&#xf0e0;</i></a></li>
+                    <li class="nav-item mb-2"><a href="mailto:info@cheesyhunger.com" class="nav-link p-0 text-muted">info@cheesyhunger.com <i class="fa" style="color:rgb(196, 187, 6);">&#xf0e0;</i></a></li>
                     <li class="nav-item mb-2"><a href="tel:09955002277" class="nav-link p-0 text-muted">Call us for franchise <i class="fa" style="color:rgb(158, 78, 232);">&#xf095;</i></a></li>
                     <li class="nav-item mb-2"><a href="tel:09955002277" class="nav-link p-0 text-muted">+91-9955002277 <i class="fa" style="color:rgb(240, 69, 169);">&#xf3cd;</i></a></li>
                     </ul>
@@ -294,8 +295,8 @@
             </div>
         </footer>
     </div>  
-    <div class="d-flex flex-column flex-sm-row justify-content-between border-top bg-danger py-3 px-4">
-            <p class="mx-auto">Copyright &copy; 2023 Cheesy Hunger, Inc. All rights reserved.</p>
+    <div class="d-flex flex-column flex-sm-row justify-content-between border-top py-2 px-4 copyright-foot">
+            <p class="mx-auto copyright-para">Copyright &copy; 2023 Cheesy Hunger, Inc. All rights reserved.</p>
     </div> 
     <!-- Footer end-->
 
