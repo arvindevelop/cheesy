@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active nav-text" aria-current="page" href="index.php">HOME</a>
+                        <a class="nav-link active nav-text" aria-current="page" href="index.html">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-text" href="about.php">ABOUT</a>
