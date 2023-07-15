@@ -24,15 +24,6 @@
                     <li class="nav-item">
                         <a class="nav-link nav-text" href="about.php">ABOUT</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            GALLERY
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item nav-text" href="#">VIDEO GALLERY</a></li>
-                            <li><a class="dropdown-item nav-text" href="#">IMAGE GALLERY</a></li>
-                        </ul>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link nav-text" href="#">FRANCHAISE MODEL</a>
                     </li>
@@ -40,7 +31,7 @@
                         <a class="nav-link nav-text" href="menu.php">MENU</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">CONTACT</a>
+                        <a class="nav-link nav-text" href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
