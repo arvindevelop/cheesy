@@ -23,7 +23,7 @@
                         <a class="nav-link active nav-text" aria-current="page" href="index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">ABOUT</a>
+                        <a class="nav-link nav-text" href="about.php">ABOUT</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
