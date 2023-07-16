@@ -98,11 +98,13 @@ i.fab {
 }
 
 #franchise{
-    background-color: black !important;
     margin-bottom: 1px;
+    background-color: rgb(238, 150, 43) !important;
 }
 
-
+.franchise-para{
+    color: white !important;
+}
 
 /* Mobile view style */
 
@@ -142,6 +144,12 @@ i.fab {
     font-size: 12px;
     color: white;
     }
+    .franchise-content{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+        font-weight: bold;
+    }
   }
 
 @media screen and (min-width: 800px) {
@@ -179,11 +187,17 @@ i.fab {
     }
     .copyright-foot{
         background-color: #313031;
-       }
-       .copyright-para{
+    }
+    .copyright-para{
         font-size: 15px;
         color: white;
-        }
+    }
+    .franchise-content{
+        margin-left: 60px;
+        margin-right: 60px;
+        font-size: 14px;
+        font-weight: bold;
+    }
    }
 
    

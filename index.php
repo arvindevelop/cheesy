@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>CHEESY HUNGER | INDIA</title>
+    <style>
+        .owner-image {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
 <div class="px-2 py-1 card progress-div">Website in Progress...</div> 
@@ -235,13 +243,13 @@
         <!-- Video gallery end -->
 
         <!-- franchise-partner start -->
-        <section class="" id="franchise">
+        <section class="" id="franchise" style="margin-bottom:2px;">
             <div class="franchise-partner-container">
                 <div class="py-2 d-flex justify-content-center">
-                    <p class="para-above">Franchise Partner</p>
+                    <p class="para-above franchise-para">Franchise Partner</p>
                 </div>
             </div>
-            <div class="px-3">
+            <!-- <div class="px-3">
                 <div class="row py-1">
                     <div class="col-6 px-1">
                         <img src="assets/photo/orgPhoto11.jpg" class="d-block w-100 franchise-img" alt="...">
@@ -250,6 +258,41 @@
                         <img src="assets/about.jpeg" class="d-block w-100 franchise-img" alt="...">
                     </div>
                 </div>
+            </div> -->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="">
+                            <div class="d-flex align-items-center justify-content-center mx-auto mb-5">
+                                <img src="assets/photo/orgPhoto13.jpg" alt="Owner's Picture" class="owner-image">
+                            </div>
+                            <div class="container text-center franchise-content">
+                                <p class="franchise-para franchise-content">"CHEESY HUNGER SIWAN" - I HAVE OPENED CHEESY HUNGER RESTAURANT PROJECT FOR MY BROTHER. AS HE WAS INTERESTED IN OPENING A FAST FOOD RESTAURANT. SO I CONTACTED WITH CHEESY HUNGER FOR SAME. </p>
+                            </div>
+                            <!-- <div class="d-flex align-items-center justify-content-center mx-auto mb-3">
+                                <button>Gallery</button>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- <div class="carousel-item">
+                        <div class="">
+                            <div class="d-flex align-items-center justify-content-center mx-auto mb-5">
+                                <img src="assets/photo/orgPhoto12.jpg" alt="Owner's Picture" class="owner-image">
+                            </div>
+                            <div class="container text-center franchise-content">
+                                <p class="franchise-para franchise-content">"CHEESY HUNGER SIWAN" - I HAVE OPENED CHEESY HUNGER RESTAURANT PROJECT FOR MY BROTHER. AS HE WAS INTERESTED IN OPENING A FAST FOOD RESTAURANT.</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
         <!-- franchise-partner end -->
