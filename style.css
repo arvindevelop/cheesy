@@ -8,6 +8,25 @@
     font-size: 7px;
 }
 
+.progress-div {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.progress-div span {
+    display: inline-block;
+    animation: moveRight 5s linear infinite;
+}
+
+@keyframes moveRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100vw);
+    }
+}
+
 .navbar-toggler{
     background-color: #f09433 !important;
 }
